@@ -1,0 +1,12 @@
+﻿  test.c
+c:\users\王尼玛大帝\desktop\rocket\rocket_code\test3_31_初识c语言\test3_31_初识c语言\test3_31_初识c语言\test.c(19): warning C4101: “b”: 未引用的局部变量
+c:\users\王尼玛大帝\desktop\rocket\rocket_code\test3_31_初识c语言\test3_31_初识c语言\test3_31_初识c语言\test.c(21): warning C4101: “f”: 未引用的局部变量
+c:\users\王尼玛大帝\desktop\rocket\rocket_code\test3_31_初识c语言\test3_31_初识c语言\test3_31_初识c语言\test.c(17): warning C4101: “s”: 未引用的局部变量
+c:\users\王尼玛大帝\desktop\rocket\rocket_code\test3_31_初识c语言\test3_31_初识c语言\test3_31_初识c语言\test.c(20): warning C4101: “long_b”: 未引用的局部变量
+c:\users\王尼玛大帝\desktop\rocket\rocket_code\test3_31_初识c语言\test3_31_初识c语言\test3_31_初识c语言\test.c(18): warning C4101: “i”: 未引用的局部变量
+c:\users\王尼玛大帝\desktop\rocket\rocket_code\test3_31_初识c语言\test3_31_初识c语言\test3_31_初识c语言\test.c(16): warning C4101: “ch”: 未引用的局部变量
+c:\users\王尼玛大帝\desktop\rocket\rocket_code\test3_31_初识c语言\test3_31_初识c语言\test3_31_初识c语言\test.c(22): warning C4101: “d”: 未引用的局部变量
+c:\users\王尼玛大帝\desktop\rocket\rocket_code\test3_31_初识c语言\test3_31_初识c语言\test3_31_初识c语言\test.c(15): warning C4101: “flag”: 未引用的局部变量
+c:\users\王尼玛大帝\desktop\rocket\rocket_code\test3_31_初识c语言\test3_31_初识c语言\test3_31_初识c语言\test.c(51): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
+c:\users\王尼玛大帝\desktop\rocket\rocket_code\test3_31_初识c语言\test3_31_初识c语言\test3_31_初识c语言\test.c(91): warning C4013: “strlen”未定义；假设外部返回 int

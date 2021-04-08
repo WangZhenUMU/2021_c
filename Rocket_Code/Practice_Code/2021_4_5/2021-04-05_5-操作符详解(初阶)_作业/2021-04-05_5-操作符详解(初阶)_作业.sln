@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1433
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06求两个数二进制中不同位的个数", "2021-04-05_5-操作符详解(初阶)_作业\2021-04-05_5-操作符详解(初阶)_作业.vcxproj", "{6213B7DF-0DD4-492C-A240-FEF86C5AF4CF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07打印整数二进制的奇数位和偶数位", "打印整数二进制的奇数位和偶数位\打印整数二进制的奇数位和偶数位.vcxproj", "{072A0024-CDFB-4628-B85E-E447DEA886E4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08打印二进制数中一的个数", "08打印二进制数中一的个数\08打印二进制数中一的个数.vcxproj", "{75CA0290-F285-4438-8439-AF4637713148}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "交换俩个变量，不创建临时变量", "交换俩个变量，不创建临时变量\交换俩个变量，不创建临时变量.vcxproj", "{E71C69C9-AF2A-4A16-A4AE-A42ADA4557F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6213B7DF-0DD4-492C-A240-FEF86C5AF4CF}.Debug|x64.ActiveCfg = Debug|x64
+		{6213B7DF-0DD4-492C-A240-FEF86C5AF4CF}.Debug|x64.Build.0 = Debug|x64
+		{6213B7DF-0DD4-492C-A240-FEF86C5AF4CF}.Debug|x86.ActiveCfg = Debug|Win32
+		{6213B7DF-0DD4-492C-A240-FEF86C5AF4CF}.Debug|x86.Build.0 = Debug|Win32
+		{6213B7DF-0DD4-492C-A240-FEF86C5AF4CF}.Release|x64.ActiveCfg = Release|x64
+		{6213B7DF-0DD4-492C-A240-FEF86C5AF4CF}.Release|x64.Build.0 = Release|x64
+		{6213B7DF-0DD4-492C-A240-FEF86C5AF4CF}.Release|x86.ActiveCfg = Release|Win32
+		{6213B7DF-0DD4-492C-A240-FEF86C5AF4CF}.Release|x86.Build.0 = Release|Win32
+		{072A0024-CDFB-4628-B85E-E447DEA886E4}.Debug|x64.ActiveCfg = Debug|x64
+		{072A0024-CDFB-4628-B85E-E447DEA886E4}.Debug|x64.Build.0 = Debug|x64
+		{072A0024-CDFB-4628-B85E-E447DEA886E4}.Debug|x86.ActiveCfg = Debug|Win32
+		{072A0024-CDFB-4628-B85E-E447DEA886E4}.Debug|x86.Build.0 = Debug|Win32
+		{072A0024-CDFB-4628-B85E-E447DEA886E4}.Release|x64.ActiveCfg = Release|x64
+		{072A0024-CDFB-4628-B85E-E447DEA886E4}.Release|x64.Build.0 = Release|x64
+		{072A0024-CDFB-4628-B85E-E447DEA886E4}.Release|x86.ActiveCfg = Release|Win32
+		{072A0024-CDFB-4628-B85E-E447DEA886E4}.Release|x86.Build.0 = Release|Win32
+		{75CA0290-F285-4438-8439-AF4637713148}.Debug|x64.ActiveCfg = Debug|x64
+		{75CA0290-F285-4438-8439-AF4637713148}.Debug|x64.Build.0 = Debug|x64
+		{75CA0290-F285-4438-8439-AF4637713148}.Debug|x86.ActiveCfg = Debug|Win32
+		{75CA0290-F285-4438-8439-AF4637713148}.Debug|x86.Build.0 = Debug|Win32
+		{75CA0290-F285-4438-8439-AF4637713148}.Release|x64.ActiveCfg = Release|x64
+		{75CA0290-F285-4438-8439-AF4637713148}.Release|x64.Build.0 = Release|x64
+		{75CA0290-F285-4438-8439-AF4637713148}.Release|x86.ActiveCfg = Release|Win32
+		{75CA0290-F285-4438-8439-AF4637713148}.Release|x86.Build.0 = Release|Win32
+		{E71C69C9-AF2A-4A16-A4AE-A42ADA4557F6}.Debug|x64.ActiveCfg = Debug|x64
+		{E71C69C9-AF2A-4A16-A4AE-A42ADA4557F6}.Debug|x64.Build.0 = Debug|x64
+		{E71C69C9-AF2A-4A16-A4AE-A42ADA4557F6}.Debug|x86.ActiveCfg = Debug|Win32
+		{E71C69C9-AF2A-4A16-A4AE-A42ADA4557F6}.Debug|x86.Build.0 = Debug|Win32
+		{E71C69C9-AF2A-4A16-A4AE-A42ADA4557F6}.Release|x64.ActiveCfg = Release|x64
+		{E71C69C9-AF2A-4A16-A4AE-A42ADA4557F6}.Release|x64.Build.0 = Release|x64
+		{E71C69C9-AF2A-4A16-A4AE-A42ADA4557F6}.Release|x86.ActiveCfg = Release|Win32
+		{E71C69C9-AF2A-4A16-A4AE-A42ADA4557F6}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF4CA2A7-C5A3-44B9-8288-27742985E75D}
+	EndGlobalSection
+EndGlobal

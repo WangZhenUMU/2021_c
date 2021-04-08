@@ -1,0 +1,3 @@
+﻿  test.c
+c:\users\王尼玛大帝\desktop\rocket\rocket_code\test4_4_上_函数\test4_4_上_函数\test4_4_上_函数\test.c(32): warning C4244: “初始化”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+  Test4_4_上_函数.vcxproj -> C:\Users\王尼玛大帝\Desktop\ROCKET\Rocket_Code\Test4_4_上_函数\Test4_4_上_函数\Debug\Test4_4_上_函数.exe
