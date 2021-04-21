@@ -18,7 +18,7 @@ size_t my_Strlen(const char *arr)
 }
 int main()
 {
-	char a[] = "wangzhen";
+	char a[10] = "wangzhen";
 	printf("%d", my_Strlen(a));
 	return 0;
 }

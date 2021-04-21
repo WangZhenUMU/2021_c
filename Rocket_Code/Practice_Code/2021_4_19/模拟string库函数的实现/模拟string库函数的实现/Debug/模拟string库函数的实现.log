@@ -1,1 +1,3 @@
-﻿
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(模拟strlen函数.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  test.c
+  模拟string库函数的实现.vcxproj -> C:\Users\王尼玛大帝\Desktop\ROCKET\2021_c\Rocket_Code\Practice_Code\2021_4_19\模拟string库函数的实现\Debug\01 模拟实现strlen函数.exe
