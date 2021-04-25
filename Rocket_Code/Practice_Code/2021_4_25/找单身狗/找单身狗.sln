@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1433
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "找单身狗", "找单身狗\找单身狗.vcxproj", "{0A30C37C-B7BE-40BC-B4FB-C1A8E3919056}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atio函数的实现", "atio函数的实现\atio函数的实现.vcxproj", "{D12AC8EC-BF9C-4F20-90DF-DF94D40EFC41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A30C37C-B7BE-40BC-B4FB-C1A8E3919056}.Debug|x64.ActiveCfg = Debug|x64
+		{0A30C37C-B7BE-40BC-B4FB-C1A8E3919056}.Debug|x64.Build.0 = Debug|x64
+		{0A30C37C-B7BE-40BC-B4FB-C1A8E3919056}.Debug|x86.ActiveCfg = Debug|Win32
+		{0A30C37C-B7BE-40BC-B4FB-C1A8E3919056}.Debug|x86.Build.0 = Debug|Win32
+		{0A30C37C-B7BE-40BC-B4FB-C1A8E3919056}.Release|x64.ActiveCfg = Release|x64
+		{0A30C37C-B7BE-40BC-B4FB-C1A8E3919056}.Release|x64.Build.0 = Release|x64
+		{0A30C37C-B7BE-40BC-B4FB-C1A8E3919056}.Release|x86.ActiveCfg = Release|Win32
+		{0A30C37C-B7BE-40BC-B4FB-C1A8E3919056}.Release|x86.Build.0 = Release|Win32
+		{D12AC8EC-BF9C-4F20-90DF-DF94D40EFC41}.Debug|x64.ActiveCfg = Debug|x64
+		{D12AC8EC-BF9C-4F20-90DF-DF94D40EFC41}.Debug|x64.Build.0 = Debug|x64
+		{D12AC8EC-BF9C-4F20-90DF-DF94D40EFC41}.Debug|x86.ActiveCfg = Debug|Win32
+		{D12AC8EC-BF9C-4F20-90DF-DF94D40EFC41}.Debug|x86.Build.0 = Debug|Win32
+		{D12AC8EC-BF9C-4F20-90DF-DF94D40EFC41}.Release|x64.ActiveCfg = Release|x64
+		{D12AC8EC-BF9C-4F20-90DF-DF94D40EFC41}.Release|x64.Build.0 = Release|x64
+		{D12AC8EC-BF9C-4F20-90DF-DF94D40EFC41}.Release|x86.ActiveCfg = Release|Win32
+		{D12AC8EC-BF9C-4F20-90DF-DF94D40EFC41}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B232D16-E42E-4188-90CC-66B6A8935074}
+	EndGlobalSection
+EndGlobal
