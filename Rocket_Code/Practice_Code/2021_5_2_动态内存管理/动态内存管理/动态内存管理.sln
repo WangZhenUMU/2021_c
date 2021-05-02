@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1433
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "malloc函数", "动态内存管理\动态内存管理.vcxproj", "{40B12802-F330-48C5-8C33-8A9AB818B46E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calloc函数的使用", "calloc函数的使用\calloc函数的使用.vcxproj", "{F97A6B11-FD6D-4BF5-9583-77A473F9209B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reallo函数", "reallo函数\reallo函数.vcxproj", "{46EFCE04-D56F-41C2-BABD-15A7BCEAB62A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40B12802-F330-48C5-8C33-8A9AB818B46E}.Debug|x64.ActiveCfg = Debug|x64
+		{40B12802-F330-48C5-8C33-8A9AB818B46E}.Debug|x64.Build.0 = Debug|x64
+		{40B12802-F330-48C5-8C33-8A9AB818B46E}.Debug|x86.ActiveCfg = Debug|Win32
+		{40B12802-F330-48C5-8C33-8A9AB818B46E}.Debug|x86.Build.0 = Debug|Win32
+		{40B12802-F330-48C5-8C33-8A9AB818B46E}.Release|x64.ActiveCfg = Release|x64
+		{40B12802-F330-48C5-8C33-8A9AB818B46E}.Release|x64.Build.0 = Release|x64
+		{40B12802-F330-48C5-8C33-8A9AB818B46E}.Release|x86.ActiveCfg = Release|Win32
+		{40B12802-F330-48C5-8C33-8A9AB818B46E}.Release|x86.Build.0 = Release|Win32
+		{F97A6B11-FD6D-4BF5-9583-77A473F9209B}.Debug|x64.ActiveCfg = Debug|x64
+		{F97A6B11-FD6D-4BF5-9583-77A473F9209B}.Debug|x64.Build.0 = Debug|x64
+		{F97A6B11-FD6D-4BF5-9583-77A473F9209B}.Debug|x86.ActiveCfg = Debug|Win32
+		{F97A6B11-FD6D-4BF5-9583-77A473F9209B}.Debug|x86.Build.0 = Debug|Win32
+		{F97A6B11-FD6D-4BF5-9583-77A473F9209B}.Release|x64.ActiveCfg = Release|x64
+		{F97A6B11-FD6D-4BF5-9583-77A473F9209B}.Release|x64.Build.0 = Release|x64
+		{F97A6B11-FD6D-4BF5-9583-77A473F9209B}.Release|x86.ActiveCfg = Release|Win32
+		{F97A6B11-FD6D-4BF5-9583-77A473F9209B}.Release|x86.Build.0 = Release|Win32
+		{46EFCE04-D56F-41C2-BABD-15A7BCEAB62A}.Debug|x64.ActiveCfg = Debug|x64
+		{46EFCE04-D56F-41C2-BABD-15A7BCEAB62A}.Debug|x64.Build.0 = Debug|x64
+		{46EFCE04-D56F-41C2-BABD-15A7BCEAB62A}.Debug|x86.ActiveCfg = Debug|Win32
+		{46EFCE04-D56F-41C2-BABD-15A7BCEAB62A}.Debug|x86.Build.0 = Debug|Win32
+		{46EFCE04-D56F-41C2-BABD-15A7BCEAB62A}.Release|x64.ActiveCfg = Release|x64
+		{46EFCE04-D56F-41C2-BABD-15A7BCEAB62A}.Release|x64.Build.0 = Release|x64
+		{46EFCE04-D56F-41C2-BABD-15A7BCEAB62A}.Release|x86.ActiveCfg = Release|Win32
+		{46EFCE04-D56F-41C2-BABD-15A7BCEAB62A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F8243BF-0060-4E26-ABB1-10EBFD0678D0}
+	EndGlobalSection
+EndGlobal
