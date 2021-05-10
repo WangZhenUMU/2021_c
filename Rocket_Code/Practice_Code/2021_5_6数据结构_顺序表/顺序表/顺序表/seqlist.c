@@ -55,30 +55,93 @@ void SeqListPushBack(SeqList* psl, SLDataType x)
 // 顺序表尾删
 void SeqListPopBack(SeqList* psl)
 {
-
+	assert(psl != NULL);
+	psl->size--;
+	psl->array[psl->size]=0;
 }
 // 顺序表头插
 void SeqListPushFront(SeqList* psl, SLDataType x)
 {
-
+	assert(psl != NULL);
+	for (int i = psl->size; i > 0; i--)
+	{
+		psl->array[i] = psl->array[i - 1];
+	}
+	psl->array[0] = x;
 }
 // 顺序表头删
 void SeqListPopFront(SeqList* psl)
 {
-
+	assert(psl != NULL);
+	if (psl->size == 0)
+	{
+		printf("ARRAY IS EMPTY");
+		return;
+	}
+	else
+	{
+		for (int i = 0; i < psl->size - 1; i++)
+		{
+			psl->array[i] = psl->array[i + 1];
+		}
+		psl->size--;
+	}
 }
 // 顺序表查找
 int SeqListFind(SeqList* psl, SLDataType x) 
 {
-
+	assert(psl != NULL);
+	if (psl->size == 0)
+	{
+		printf("ARRAY IS EMPTY");
+		return 0;
+	}
+	else
+	{
+		for (int i = 0; i < psl->size; i++)
+		{
+			if (psl->array == x)
+				return 1;
+		}
+		return 0;
+	}
 }
 // 顺序表在pos位置插入x
 void SeqListInsert(SeqList* psl, size_t pos, SLDataType x)
 {
-
+	assert(psl == NULL);
+	if (pos < 0)
+	{
+		printf("POS ERROR!");
+		return 0;
+	}
+	else if (pos >= psl->size)
+	{
+		psl->array[psl->size] = x;
+		psl->size++;
+	}
+	else
+	{
+		for (int i = psl->size; i > pos; i++)
+		{
+			psl->array[i] = psl->array[i - 1];
+		}
+		psl->array[pos] = x;
+	}
 }
 // 顺序表删除pos位置的值
 void SeqListErase(SeqList* psl, size_t pos)
 {
-
+	assert(psl != NULL);
+	if (pos<0 || pos>psl->size - 1)
+	{
+		printf("POS ERROR!");
+	}
+	else
+	{
+		for (int i = pos; i < psl->size - 1; i++)
+		{
+			psl->array[i] = psl->array[i + 1];
+		}
+	}
 }
