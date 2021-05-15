@@ -1,5 +1,6 @@
 #include"slist.h"
-#include"stdlib.h"
+#include<stdlib.h>
+#include<stdio.h>
 #include<assert.h>
 //动态申请一个节点
 SListNode* BuySListNode(SLTDateType x) 
@@ -7,7 +8,7 @@ SListNode* BuySListNode(SLTDateType x)
 	SListNode *node = (SListNode*)malloc(sizeof(SListNode));
 	if (NULL == node)
 	{
-		print("BUYSListNode Error！");
+		printf("BUYSListNode Error！");
 		return NULL;
 	}
 	node->data = x;
@@ -18,12 +19,12 @@ SListNode* BuySListNode(SLTDateType x)
 void SListPrint(SListNode* plist)
 {
 	SListNode *current = plist;
-	while (current)
+	while (current!=NULL)
 	{
 		printf("%d --> ", current->data);
 		current = current->next;
 	}
-	printf("NULL");
+	printf("NULL\n");
 }
 // 单链表尾插
 void SListPushBack(SListNode** pplist, SLTDateType x)
@@ -48,14 +49,14 @@ void SListPopBack(SListNode** pplist)
 {
 	assert(pplist != NULL);
 	SListNode *current = *pplist;
-	if (current == NULL)
+	if (*pplist == NULL)
 	{
 		return;
 	}
-	else if (current->next == NULL)
+	else if (NULL==(*pplist)->next)
 	{
-		free(current);
-		current = NULL;
+		free(*pplist);
+		*pplist = NULL;
 	}
 	else
 	{
@@ -72,7 +73,7 @@ void SListPushFront(SListNode** pplist, SLTDateType x)
 {
 	assert(pplist != NULL);
 	SListNode *node = BuySListNode(x);
-	node->next = pplist;
+	node->next = *pplist;
 	*pplist=node;
 }
 // 单链表头删
@@ -80,7 +81,7 @@ void SListPopFront(SListNode** pplist)
 {
 	SListNode *current = NULL;
 	assert(pplist != NULL);
-	if (*pplist == NULL)
+	if (NULL==*pplist)
 	{
 		return;
 	}
@@ -92,12 +93,58 @@ void SListPopFront(SListNode** pplist)
 	}
 }
 // 单链表查找
-SListNode* SListFind(SListNode* plist, SLTDateType x);
+SListNode* SListFind(SListNode* plist, SLTDateType x)
+{
+	SListNode *current = plist;
+	while (current)
+	{
+		if (x==current->data)
+		{
+			return current;
+		}
+		current = current->next;
+	}
+	return NULL;
+}
 // 单链表在pos位置之后插入x
-// 分析思考为什么不在pos位置之前插入？
-void SListInsertAfter(SListNode* pos, SLTDateType x);
+void SListInsertAfter(SListNode* pos, SLTDateType x)
+{
+
+	SListNode *node = NULL;
+	if (NULL == pos)
+	{
+		printf("POS ERROR\n");
+		return;
+	}
+	node = BuySListNode(x);
+	node->next = pos->next;
+	pos->next = node;
+}
 // 单链表删除pos位置之后的值
-// 分析思考为什么不删除pos位置？
-void SListEraseAfter(SListNode* pos);
+void SListEraseAfter(SListNode* pos)
+{
+	SListNode *node = NULL;
+	if (NULL == pos)
+	{
+		printf("POS ERROR\n");
+		return;
+	}
+	node = pos->next;
+	pos->next = node->next;
+	free(node);
+}
 // 单链表的销毁
-void SListDestory(SListNode* plist);
+void SListDestory(SListNode** pplist)
+{
+	SListNode *node = NULL;
+	if (NULL == *pplist)
+	{
+		return;
+	}
+	while (NULL!=(*pplist))
+	{
+		node = *pplist;
+		(*pplist) = (*pplist)->next;
+		free(node);
+	}
+}

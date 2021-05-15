@@ -27,5 +27,5 @@ void SListInsertAfter(SListNode* pos, SLTDateType x);
 // 分析思考为什么不删除pos位置？
 void SListEraseAfter(SListNode* pos);
 // 单链表的销毁
-void SListDestory(SListNode* plist);
+void SListDestory(SListNode** pplist);
 #endif // !__SLIST_H__
