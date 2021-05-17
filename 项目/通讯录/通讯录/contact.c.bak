@@ -60,11 +60,11 @@ void Add_Contact(Contact *p)//ÃÌº”
 void Show_Contact(Person *p)//œ‘ æ
 {
 	assert(p != NULL);
-	printf("|%-12s\t|", p->Name);
-	printf("|%-8s\t|", p->Sec);
-	printf("|%-6d\t|", p->Age);
-	printf("|%-20s\t|", p->Address);
-	printf("|%-15s|\n", p->Tel);
+	printf("%-12s\t", p->Name);
+	printf("%-8s\t", p->Sec);
+	printf("%-6d\t", p->Age);
+	printf("%-20s\t", p->Address);
+	printf("%-15s\n", p->Tel);
 }
 ///////////////////////////////////////////////////////////////////////////
 void Find_Contact(Contact *p)//≤È’“
