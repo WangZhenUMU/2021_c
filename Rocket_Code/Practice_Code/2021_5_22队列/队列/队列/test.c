@@ -1,9 +1,9 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include"queue.h"
 int main()
 {
-	Queue Q;
-	Queue* pQ = &Q;
+	Queue* pQ = (Queue*)malloc(sizeof(Queue));
 	QueueInit(pQ);
 	QueuePush(pQ, 1);
 	QueuePush(pQ, 2);

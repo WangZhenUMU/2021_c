@@ -9,10 +9,8 @@ QNode* BuyQueueNode(QDataType data)
 		assert(0);
 		return NULL;
 	}
-
 	node->data = data;
 	node->next = NULL;
-
 	return node;
 }
 // 初始化队列 
@@ -29,26 +27,34 @@ void QueuePush(Queue* q, QDataType data)
 	q->rear = q->rear->next;
 }
 // 队头出队列 
-void QueuePop(Queue* q)
+QDataType QueuePop(Queue* q)
 {
 	assert(q);
-	QNode* DelNode = NULL;
-	if (QueueEmpty(q))
-		return;
-	DelNode = q->front->next;
+	if (QueueEmpty(q)) //如果为空直接跳出函数
+		return 0;
+	QNode* DelNode = q->front->next;
+	QDataType temp = DelNode->data;
 	q->front->next = DelNode->next;
+	if (q->front->next == 0)
+	{
+		q->rear = q->front;
+	}
+	free(DelNode);
+	return temp;
 }
 // 获取队列头部元素 
 QDataType QueueFront(Queue* q)
 {
-	assert(q&&!QueueEmpty(q));
+	assert(q);
+	if (QueueEmpty(q))
+		return 0;
 	return q->front->next->data;
 }
-// 获取队列队尾元素 
+// 获取队列尾部元素 
 QDataType QueueBack(Queue* q)
 {
-	assert(q && 0 == QueueEmpty(q));
-	if (NULL==q->front->next)
+	assert(q);
+	if (QueueEmpty(q))
 		return 0;
 	return q->rear->data;
 }
@@ -56,7 +62,7 @@ QDataType QueueBack(Queue* q)
 int QueueSize(Queue* q)
 {
 	assert(q);
-	int count=0;
+	int count = 0;
 	QNode* pcurrent = q->front->next;
 	while (pcurrent)
 	{
@@ -69,7 +75,7 @@ int QueueSize(Queue* q)
 int QueueEmpty(Queue* q)
 {
 	assert(q);
-	return NULL==q->front->next;
+	return NULL == q->front->next;
 }
 // 销毁队列 
 void QueueDestroy(Queue* q)
@@ -83,5 +89,7 @@ void QueueDestroy(Queue* q)
 		pcurrent = q->front;
 	}
 	q->rear = NULL;
+	free(q);
+	q = NULL;
 }
 
