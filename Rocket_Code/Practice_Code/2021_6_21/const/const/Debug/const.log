@@ -1,0 +1,6 @@
+﻿  test2.cpp
+c:\users\王尼玛大帝\desktop\rocket\2021_c\rocket_code\practice_code\2021_6_21\const\const\test2.cpp(13): error C3646: “b2”: 未知重写说明符
+c:\users\王尼玛大帝\desktop\rocket\2021_c\rocket_code\practice_code\2021_6_21\const\const\test2.cpp(13): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\users\王尼玛大帝\desktop\rocket\2021_c\rocket_code\practice_code\2021_6_21\const\const\test2.cpp(9): error C2065: “b2”: 未声明的标识符
+c:\users\王尼玛大帝\desktop\rocket\2021_c\rocket_code\practice_code\2021_6_21\const\const\test2.cpp(26): error C2039: “b2”: 不是“A”的成员
+  c:\users\王尼玛大帝\desktop\rocket\2021_c\rocket_code\practice_code\2021_6_21\const\const\test2.cpp(3): note: 参见“A”的声明
